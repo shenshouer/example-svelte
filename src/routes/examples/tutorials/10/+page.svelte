@@ -9,6 +9,8 @@
 </script>
 
 <h3>Await 块</h3>
+<a href="https://learn.svelte.dev/tutorial/await-blocks">参考</a>
+<br />
 
 <button on:click={handleClick}> generate random number </button>
 
