@@ -1,17 +1,12 @@
 <script lang="ts">
     let m = { x: 0, y: 0 };
-
-    function handleMove(event: PointerEvent) {
-        m.x = event.clientX;
-        m.y = event.clientY;
-    }
 </script>
 
 <h3>DOM事件</h3>
 <a href="https://learn.svelte.dev/tutorial/dom-events">参考</a>
 <br />
 
-<div on:pointermove={handleMove}>
+<div on:pointermove={(e) => (m = { x: e.clientX, y: e.clientY })}>
     The pointer is at {m.x} x {m.y}
 </div>
 
