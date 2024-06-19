@@ -10,6 +10,7 @@
         <a href="/examples/tutorials/07">属性展开</a>
         <a href="/examples/tutorials/08">each块</a>
         <a href="/examples/tutorials/09">为每个块设置键</a>
+        <a href="/examples/tutorials/10">Await块</a>
     </nav>
 </aside>
 

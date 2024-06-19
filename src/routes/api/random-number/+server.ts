@@ -1,9 +1,11 @@
 import { error } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
+import { sleep } from '$lib';
 
-export const GET: RequestHandler = ({ url }) => {
+export const GET: RequestHandler = async ({ url }) => {
+    await sleep(2000); // 模拟加载延时 2000ms
     const min = Number(url.searchParams.get('min') ?? '0');
-    const max = Number(url.searchParams.get('max') ?? '1');
+    const max = Number(url.searchParams.get('max') ?? '100');
 
     const d = max - min;
 
