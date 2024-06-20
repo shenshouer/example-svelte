@@ -12,6 +12,7 @@
         <a href="/examples/tutorials/09">为每个块设置键</a>
         <a href="/examples/tutorials/10">Await块</a>
         <a href="/examples/tutorials/11">事件</a>
+        <a href="/examples/tutorials/12">绑定</a>
     </nav>
 </aside>
 
