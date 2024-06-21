@@ -13,6 +13,7 @@
         <a href="/examples/tutorials/10">Await块</a>
         <a href="/examples/tutorials/11">事件</a>
         <a href="/examples/tutorials/12">绑定</a>
+        <a href="/examples/tutorials/13">生命周期</a>
     </nav>
 </aside>
 
