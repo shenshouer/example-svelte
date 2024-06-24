@@ -15,6 +15,7 @@
         <a href="/examples/tutorials/12">绑定</a>
         <a href="/examples/tutorials/13">生命周期</a>
         <a href="/examples/tutorials/14">存储</a>
+        <a href="/examples/tutorials/15">动画</a>
     </nav>
 </aside>
 
